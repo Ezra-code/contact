@@ -1,0 +1,123 @@
+/* i{
+    position: absolute;
+    padding: 10px;
+    min-width: 40px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    width: 500px;
+    height: 700px;
+    margin: 50vh;
+    overflow: scroll;
+}
+.container{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+#heading{
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+}
+#heading input{
+    width: 100%;
+    font-size: 20px;
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 0;
+    border: 0;
+}
+#heading .icons{
+    display: flex;
+    position: absolute;
+    color: gray;
+    padding: 20px;
+    font-size: 20px;
+}
+.left-icon{
+    background-color: white;
+    color: gray;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 0;
+    display: flex;
+    padding-top: 8px;
+    border: none;
+}
+.left-icon i{
+    padding: 12px;
+}
+.icons2{
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.icons2 ul li{
+    display: inline;
+    padding: 60px;
+}
+.time{
+    position: relative;
+}
+.time::after{
+    content: "";
+    position: absolute;
+    left: -10px;
+    bottom: -12px;
+    width: 200%;
+    height: 3px;
+    background-color: red;
+}
+h3{
+    padding: 15px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    padding: 15px;
+    border: 1px solid silver;
+    box-shadow: 5px 5px 3px silver;
+}
+.contact .left{
+    display: flex;
+    padding: 12px;
+}
+.contact .right{
+    padding-top: 15px;
+    font-size: 20px;
+}
+.details{
+    margin: 5px;
+}
+span .missed{
+    color: red;
+}
+span .accepted{
+    color: green;
+}
+
+.contact img{
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid silver;
+}
